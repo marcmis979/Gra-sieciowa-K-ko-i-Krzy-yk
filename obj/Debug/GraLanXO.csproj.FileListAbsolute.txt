@@ -9,3 +9,14 @@ C:\Users\marci\OneDrive - Politechnika Śląska\Repos\GraLanXO\obj\Debug\GraLanX
 C:\Users\marci\OneDrive - Politechnika Śląska\Repos\GraLanXO\obj\Debug\GraLanXO.exe
 C:\Users\marci\OneDrive - Politechnika Śląska\Repos\GraLanXO\obj\Debug\GraLanXO.pdb
 C:\Users\marci\OneDrive - Politechnika Śląska\Repos\GraLanXO\obj\Debug\GraLanXO.Gra.resources
+C:\Users\marci\OneDrive - Politechnika Śląska\Repos\Asystent_Moscicki_Rabenda_Misiuna_Kania\Gra-sieciowa-K-ko-i-Krzy-yk\bin\Debug\GraLanXO.exe.config
+C:\Users\marci\OneDrive - Politechnika Śląska\Repos\Asystent_Moscicki_Rabenda_Misiuna_Kania\Gra-sieciowa-K-ko-i-Krzy-yk\bin\Debug\GraLanXO.exe
+C:\Users\marci\OneDrive - Politechnika Śląska\Repos\Asystent_Moscicki_Rabenda_Misiuna_Kania\Gra-sieciowa-K-ko-i-Krzy-yk\bin\Debug\GraLanXO.pdb
+C:\Users\marci\OneDrive - Politechnika Śląska\Repos\Asystent_Moscicki_Rabenda_Misiuna_Kania\Gra-sieciowa-K-ko-i-Krzy-yk\obj\Debug\GraLanXO.csproj.AssemblyReference.cache
+C:\Users\marci\OneDrive - Politechnika Śląska\Repos\Asystent_Moscicki_Rabenda_Misiuna_Kania\Gra-sieciowa-K-ko-i-Krzy-yk\obj\Debug\GraLanXO.Gra.resources
+C:\Users\marci\OneDrive - Politechnika Śląska\Repos\Asystent_Moscicki_Rabenda_Misiuna_Kania\Gra-sieciowa-K-ko-i-Krzy-yk\obj\Debug\GraLanXO.Menu.resources
+C:\Users\marci\OneDrive - Politechnika Śląska\Repos\Asystent_Moscicki_Rabenda_Misiuna_Kania\Gra-sieciowa-K-ko-i-Krzy-yk\obj\Debug\GraLanXO.Properties.Resources.resources
+C:\Users\marci\OneDrive - Politechnika Śląska\Repos\Asystent_Moscicki_Rabenda_Misiuna_Kania\Gra-sieciowa-K-ko-i-Krzy-yk\obj\Debug\GraLanXO.csproj.GenerateResource.cache
+C:\Users\marci\OneDrive - Politechnika Śląska\Repos\Asystent_Moscicki_Rabenda_Misiuna_Kania\Gra-sieciowa-K-ko-i-Krzy-yk\obj\Debug\GraLanXO.csproj.CoreCompileInputs.cache
+C:\Users\marci\OneDrive - Politechnika Śląska\Repos\Asystent_Moscicki_Rabenda_Misiuna_Kania\Gra-sieciowa-K-ko-i-Krzy-yk\obj\Debug\GraLanXO.exe
+C:\Users\marci\OneDrive - Politechnika Śląska\Repos\Asystent_Moscicki_Rabenda_Misiuna_Kania\Gra-sieciowa-K-ko-i-Krzy-yk\obj\Debug\GraLanXO.pdb

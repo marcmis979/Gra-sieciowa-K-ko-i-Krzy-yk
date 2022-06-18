@@ -32,7 +32,7 @@ namespace GraLanXO
             {
                 PlayerChar = 'X';
                 OpponentChar = 'O';
-                server = new TcpListener(System.Net.IPAddress.Any, 5732);
+                server = new TcpListener(System.Net.IPAddress.Any, 7777);
                 server.Start();
                 sock = server.AcceptSocket();
                 label1.Text = "Your Trun!";
@@ -43,7 +43,7 @@ namespace GraLanXO
                 OpponentChar = 'X';
                 try
                 {
-                    client = new TcpClient(ip, 5732);
+                    client = new TcpClient(ip, 7777);
                     sock = client.Client;
                     MessageReceiver.RunWorkerAsync();
                 }
