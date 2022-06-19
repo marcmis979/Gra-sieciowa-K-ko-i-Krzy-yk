@@ -33,8 +33,6 @@ namespace GraLanXO
             this.button2 = new System.Windows.Forms.Button();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.label2 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // button1
@@ -81,32 +79,12 @@ namespace GraLanXO
             this.label1.TabIndex = 3;
             this.label1.Text = "Adres Hosta:";
             // 
-            // textBox2
-            // 
-            this.textBox2.Location = new System.Drawing.Point(38, 70);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(232, 20);
-            this.textBox2.TabIndex = 4;
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(110, 36);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(76, 31);
-            this.label2.TabIndex = 5;
-            this.label2.Text = "Nick:";
-            // 
             // Menu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(40)))), ((int)(((byte)(40)))));
             this.ClientSize = new System.Drawing.Size(600, 600);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.textBox2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.button2);
@@ -125,8 +103,6 @@ namespace GraLanXO
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.Label label2;
     }
 }
 

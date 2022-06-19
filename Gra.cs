@@ -35,7 +35,7 @@ namespace GraLanXO
                 server = new TcpListener(System.Net.IPAddress.Any, 7777);
                 server.Start();
                 sock = server.AcceptSocket();
-                label1.Text = "Your Trun!";
+                label1.Text = "Twoja Tura!";
             }
             else
             {
@@ -62,9 +62,9 @@ namespace GraLanXO
                 return;
             }
             FreezeBoard();
-            label1.Text = "Opponent's Turn!";
+            label1.Text = "Tura Przeciwnika!";
             ReceiveMove();
-            label1.Text = "Your Turn!";
+            label1.Text = "Twoja Tura!";
             if (!CheckState())
                 UnfreezeBoard();
         }
@@ -97,14 +97,14 @@ namespace GraLanXO
             {
                 if (button1.Text[0] == PlayerChar)
                 {
-                    label1.Text = "You Won!";
-                    MessageBox.Show("You Won!");
+                    label1.Text = "Wygrałeś!";
+                    MessageBox.Show("Wygrałeś!");
                     FreezeBoard(); 
                 }
                 else
                 {
-                    label1.Text = "You Lost!";
-                    MessageBox.Show("You Lost!");
+                    label1.Text = "Przegrałeś";
+                    MessageBox.Show("Przegrałeś");
                 }
                 return true;
             }
@@ -113,15 +113,15 @@ namespace GraLanXO
             {
                 if (button4.Text[0] == PlayerChar)
                 {
-                    label1.Text = "You Won!";
-                    MessageBox.Show("You Won!");
+                    label1.Text = "Wygrałeś!";
+                    MessageBox.Show("Wygrałeś!");
                     FreezeBoard();
                 }
 
                 else
                 {
-                    label1.Text = "You Lost!";
-                    MessageBox.Show("You Lost!");
+                    label1.Text = "Przegrałeś";
+                    MessageBox.Show("Przegrałeś");
                 }
                 return true;
             }
@@ -130,14 +130,14 @@ namespace GraLanXO
             {
                 if (button7.Text[0] == PlayerChar)
                 {
-                    label1.Text = "You Won!";
-                    MessageBox.Show("You Won!");
+                    label1.Text = "Wygrałeś!";
+                    MessageBox.Show("Wygrałeś!");
                     FreezeBoard();
                 }
                 else
                 {
-                    label1.Text = "You Lost!";
-                    MessageBox.Show("You Lost!");
+                    label1.Text = "Przegrałeś";
+                    MessageBox.Show("Przegrałeś");
                 }
                 return true;
             }
@@ -147,14 +147,14 @@ namespace GraLanXO
             {
                 if (button1.Text[0] == PlayerChar)
                 {
-                    label1.Text = "You Won!";
-                    MessageBox.Show("You Won!");
+                    label1.Text = "Wygrałeś!";
+                    MessageBox.Show("Wygrałeś!");
                     FreezeBoard();
                 }
                 else
                 {
-                    label1.Text = "You Lost!";
-                    MessageBox.Show("You Lost!");
+                    label1.Text = "Przegrałeś";
+                    MessageBox.Show("Przegrałeś");
                 }
                 return true;
             }
@@ -163,14 +163,14 @@ namespace GraLanXO
             {
                 if (button2.Text[0] == PlayerChar)
                 {
-                    label1.Text = "You Won!";
-                    MessageBox.Show("You Won!");
+                    label1.Text = "Wygrałeś!";
+                    MessageBox.Show("Wygrałeś!");
                     FreezeBoard();
                 }
                 else
                 {
-                    label1.Text = "You Lost!";
-                    MessageBox.Show("You Lost!");
+                    label1.Text = "Przegrałeś";
+                    MessageBox.Show("Przegrałeś");
                 }
                 return true;
             }
@@ -179,14 +179,14 @@ namespace GraLanXO
             {
                 if (button3.Text[0] == PlayerChar)
                 {
-                    label1.Text = "You Won!";
-                    MessageBox.Show("You Won!");
+                    label1.Text = "Wygrałeś!";
+                    MessageBox.Show("Wygrałeś!");
                     FreezeBoard();
                 }
                 else
                 {
-                    label1.Text = "You Lost!";
-                    MessageBox.Show("You Lost!");
+                    label1.Text = "Przegrałeś";
+                    MessageBox.Show("Przegrałeś");
                 }
                 return true;
             }
@@ -195,14 +195,14 @@ namespace GraLanXO
             {
                 if (button1.Text[0] == PlayerChar)
                 {
-                    label1.Text = "You Won!";
-                    MessageBox.Show("You Won!");
+                    label1.Text = "Wygrałeś!";
+                    MessageBox.Show("Wygrałeś!");
                     FreezeBoard();
                 }
                 else
                 {
-                    label1.Text = "You Lost!";
-                    MessageBox.Show("You Lost!");
+                    label1.Text = "Przegrałeś";
+                    MessageBox.Show("Przegrałeś");
                 }
                 return true;
             }
@@ -211,14 +211,14 @@ namespace GraLanXO
             {
                 if (button3.Text[0] == PlayerChar)
                 {
-                    label1.Text = "You Won!";
-                    MessageBox.Show("You Won!");
+                    label1.Text = "Wygrałeś!";
+                    MessageBox.Show("Wygrałeś!");
                     FreezeBoard();
                 }
                 else
                 {
-                    label1.Text = "You Lost!";
-                    MessageBox.Show("You Lost!");
+                    label1.Text = "Przegrałeś";
+                    MessageBox.Show("Przegrałeś");
                 }
                 return true;
             }
@@ -226,8 +226,8 @@ namespace GraLanXO
             //Draw
             else if (button1.Text != "" && button2.Text != "" && button3.Text != "" && button4.Text != "" && button5.Text != "" && button6.Text != "" && button7.Text != "" && button8.Text != "" && button9.Text != "")
             {
-                label1.Text = "It's a draw!";
-                MessageBox.Show("It's a draw!");
+                label1.Text = "REMIS";
+                MessageBox.Show("REMIS");
                 FreezeBoard();
                 return true;
             }
